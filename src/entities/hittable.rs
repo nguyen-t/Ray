@@ -1,4 +1,5 @@
-use raytracer::*;
+use crate::raytracer::vec3::vec3;
+use crate::raytracer::ray::Ray;
 
 pub enum Face {
   FRONT,

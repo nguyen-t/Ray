@@ -1,5 +1,6 @@
-use raytracer::*;
-use entities::hittable::*;
+use crate::raytracer::vec3::vec3;
+use crate::raytracer::ray::Ray;
+use crate::entities::hittable::Hittable;
 
 pub struct Sphere {
   center: vec3,
