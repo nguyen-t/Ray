@@ -2,11 +2,10 @@
 
 mod formats;
 mod raytracer;
-mod entities;
-
-use formats::{PPM, Image};
-use raytracer::*;
-use entities::*;
+use crate::formats::image::Image;
+use crate::formats::ppm::PPM;
+use crate::raytracer::vec3::vec3;
+use crate::raytracer::ray::Ray;
 
 const IMG_HEIGHT: usize = 720;
 const IMG_WIDTH: usize = 1280;
