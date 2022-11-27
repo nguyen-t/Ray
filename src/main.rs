@@ -42,4 +42,5 @@ fn main() {
   }
 
   ppm.draw(img.raw());
+
 }
