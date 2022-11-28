@@ -28,5 +28,5 @@ jobs:
     - name: Artifact Upload
       uses: actions/upload-artifact@v3
       with:
-        name: raytrace.exe
-        path: main.exe
+        name: Build
+        path: target/
