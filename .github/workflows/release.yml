@@ -23,8 +23,7 @@ jobs:
       run: rustup default ${{ matrix.toolchain }}
     - name: Build
       run: cargo build --release --verbose
-    - name: Artifact Upload
       uses: actions/upload-artifact@v3
       with:
         name: raytrace.exe
-        path: main.exe
+        path: main
