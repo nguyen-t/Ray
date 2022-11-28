@@ -24,7 +24,7 @@ jobs:
     - name: Build
       run: cargo build --release --verbose
     - name: Show Files
-      run: ls -a
+      run: ls
     - name: Artifact Upload
       uses: actions/upload-artifact@v3
       with:
