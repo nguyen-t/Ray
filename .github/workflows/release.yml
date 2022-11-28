@@ -22,7 +22,7 @@ jobs:
     - name: Select
       run: rustup default ${{ matrix.toolchain }}
     - name: Build
-      run: cargo build --release
+      run: cargo build --release --verbose
     - name: Artifact Upload
       uses: actions/upload-artifact@v3
       with:
